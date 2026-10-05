@@ -1,0 +1,139 @@
+<!doctype HTML>
+<html>
+
+<head> 
+    <style>
+
+body {
+    background-color: black;
+     color: green;
+      font-family: 'Trebuchet MS';
+      }        
+
+    h1 {
+        color: lime;
+        text-align: center;
+        font-size: 50px;
+        
+    }
+
+ p {
+  color: purple;
+  text-align: center;
+ } 
+
+
+ h2 {
+  color: lime;
+  margin-bottom: 30px;
+ }
+
+ img {
+   border: 6px solid orangered;
+ }
+
+ .pink {
+   color: deeppink;
+}
+
+.red {
+    color: darkred;
+}
+
+.grande {
+    font-size: 35px;
+}
+
+.caja1{
+    background-color: darkviolet;
+    border: 4px dotted seagreen;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.caja2 {
+    background-color: lightseagreen;
+    border: 4px dotted firebrick;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.caja3 {
+    background-color: goldenrod;
+    border: 4px dotted orangered;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#borde {
+    border: 10px dotted yellowgreen;
+}
+
+    </style>
+
+    <meta charset="UTF-8">
+    <title>Tarea ID y Class</title>
+
+ </head>
+
+  <body>
+
+    <h1 id="borde"> 
+        Conoce a F 
+    </h1>
+
+    <p class="pink grande">
+        Hola, soy Felipe y estoy aprendiendo CSS y HTML desde cero a... editar todo en la pagina, osea de 0 a 100 hahaha
+    </p>
+
+<div class="caja1">
+
+    <h2 class="pink">Cosas que me gustan</h2>
+
+    <ul>
+        <li>Música</li>
+        <li>Videojuegos</li>
+        <li>Aprender cosas nuevas</li>
+        <li>Experimentar con el conocimiento</li>
+        <li>La tecnología</li>
+        <li>Reír siempre que se pueda</li>
+        <li>Hacer musica nueva</li>
+        <li>Tocar la bateria</li>
+        <li>Vivir cosas con la gente que amo</li>
+    </ul>
+</div>
+
+<div class="caja2">
+
+    <h2>Mis artistas favoritos</h2>
+
+    <ol class="pink">
+        <li>Daft Punk</li>
+        <li>Deadmau5</li>
+        <li>Skrillex</li>
+        <li>Justice</li>
+        <li>Gorillaz</li>
+        <li>Red Hot Chili Peppers</li>
+        <li>Linkin Park</li>
+    </ol>
+</div>
+
+<div class="caja3">
+    <h2 class="red"> Comidas Favoritas </h2>
+
+    <ol>
+     <li> Tacos al pastor </li>
+     <li>Pizza</li>
+    </ol>
+</div>
+
+    <h2>Una imagen que me gusta</h2>
+
+<img src="Espadachin.jpg" alt="hombre" width="400">
+<h2 class="pink"> Una rola en Youtube que recomiendo: </h2>
+
+<a class="red grande" href="https://www.youtube.com/watch?v=6-X3rSIBZhk&list=RD6-X3rSIBZhk&start_radio=1"> Abrir Youtube </a>
+
+</body>
+
+</html>
